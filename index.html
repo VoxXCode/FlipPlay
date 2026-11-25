@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FlipPlay: nonton anime & drama, baca manga & light novel dalam satu aplikasi web.">
+    <title>FlipPlay - Nonton & Baca dalam Satu Tempat</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./src/output.css">
+    <style>
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 5px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.12);
+            border-radius: 9999px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: rgba(249, 115, 22, 0.5);
+        }
+        .sort-check.is-hidden,
+        .inclusion-check.is-hidden,
+        .exclusion-check.is-hidden {
+            display: none !important;
+        }
+    </style>
+</head>
+
+<body class="bg-slate-950 text-slate-300 antialiased scroll-smooth">
+
+    <!-- NAVBAR -->
+    <header class="sticky top-0 z-50 bg-slate-950 border-b border-white/10 shadow-lg">
+        <nav class="max-w-[90rem] mx-auto flex items-center justify-between px-6 py-4" aria-label="Navigasi utama">
+            <a href="#home" class="text-2xl font-extrabold text-white">
+                Flip<span class="text-orange-500">Play</span>
+            </a>
+
+            <ul class="hidden md:flex items-center gap-8 text-sm">
+                <li><a href="#home" class="hover:text-white transition">Home</a></li>
+                <li><a href="#konten" class="hover:text-white transition">Konten</a></li>
+                <li><a href="#discovery" class="hover:text-white transition">Katalog</a></li>
+                <li><a href="#fitur" class="hover:text-white transition">Fitur</a></li>
+                <li><a href="#contact" class="hover:text-white transition">Contact</a></li>
+            </ul>
+
+            <a href="#contact" class="hidden md:inline-block bg-orange-600 hover:bg-orange-500 text-white text-sm font-semibold px-5 py-2 rounded-full transition">
+                Daftar Waitlist
+            </a>
+
+            <button id="menu-btn" class="md:hidden text-white text-2xl" aria-label="Buka menu" aria-expanded="false">&#9776;</button>
+        </nav>
+
+        <ul id="mobile-menu" class="hidden md:hidden flex-col gap-4 max-w-[90rem] mx-auto px-6 pb-4 text-sm">
+            <li><a href="#home" class="block hover:text-white">Home</a></li>
+            <li><a href="#konten" class="block hover:text-white">Konten</a></li>
+            <li><a href="#discovery" class="block hover:text-white">Katalog</a></li>
+            <li><a href="#fitur" class="block hover:text-white">Fitur</a></li>
+            <li><a href="#contact" class="block hover:text-white">Contact</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <!-- HERO / HIGHLIGHTS -->
+        <section id="home" class="max-w-[90rem] mx-auto px-6 py-10 mt-4 md:mt-8">
+            <div class="flex flex-col lg:flex-row gap-8">
+                
+                <!-- Main Featured Banner (Left) - Terhubung ke Jikan API -->
+                <div class="w-full lg:w-2/3 flex flex-col gap-4">
+                    <!-- Carousel Item Dinamis -->
+                    <div id="featured-banner-card" class="relative bg-slate-900 rounded-2xl overflow-hidden h-[320px] md:h-[380px] border border-white/5 flex group cursor-pointer shadow-xl">
+                        <!-- Dynamic Banner Slide dari Jikan API -->
+                    </div>
+                    
+                    <!-- Controls -->
+                    <div class="flex items-center justify-center gap-4 mt-2">
+                        <button id="banner-prev-btn" aria-label="Slide sebelumnya" class="w-8 h-8 flex items-center justify-center rounded bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition shadow cursor-pointer">
+                            <i class="fa-solid fa-chevron-left text-xs"></i>
+                        </button>
+                        <div id="banner-dots" class="flex items-center gap-3">
+                            <!-- Dynamic Dots -->
+                        </div>
+                        <button id="banner-next-btn" aria-label="Slide berikutnya" class="w-8 h-8 flex items-center justify-center rounded bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition shadow cursor-pointer">
+                            <i class="fa-solid fa-chevron-right text-xs"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Announcements (Right) -->
+                <div class="w-full lg:w-1/3 flex flex-col">
+                    <div class="flex items-center justify-between mb-5">
+                        <h3 class="text-xl font-bold text-white tracking-wide">Pengumuman</h3>
+                        <a href="#" class="text-sm text-slate-400 hover:text-orange-400 transition font-medium">Semua</a>
+                    </div>
+                    
+                    <div class="flex flex-col gap-4 flex-grow">
+                        <!-- Announcement 1 -->
+                        <a href="#" class="flex items-center gap-4 bg-slate-900 hover:bg-slate-800 p-4 rounded-xl border border-white/5 transition group shadow-md">
+                            
+                            <div class="flex flex-col">
+                                <h4 class="text-white text-sm font-bold mb-1.5 group-hover:text-orange-400 transition leading-snug line-clamp-2">Website akan melakukan update besar besaran</h4>
+                                <span class="text-[11px] text-slate-500 font-medium">16 November 2025</span>
+                            </div>
+                        </a>
+                        
+                        <!-- Announcement 2 -->
+                        <a href="#" class="flex items-center gap-4 bg-slate-900 hover:bg-slate-800 p-4 rounded-xl border border-white/5 transition group shadow-md">
+
+                            <div class="flex flex-col">
+                                <h4 class="text-white text-sm font-bold mb-1.5 group-hover:text-orange-400 transition leading-snug line-clamp-2">Pengumuman Rekrutmen Pengembangan Aplikasi</h4>
+                                <span class="text-[11px] text-slate-500 font-medium">03 August 2025</span>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <!-- Announcement Controls -->
+                    <div class="flex items-center justify-center gap-4 mt-6">
+                        <button class="w-8 h-8 flex items-center justify-center rounded bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition shadow"><i class="fa-solid fa-chevron-left text-xs"></i></button>
+                        <div class="flex items-center gap-3">
+                            <div class="w-2.5 h-2.5 rounded-full bg-slate-600 ring-2 ring-orange-500 ring-offset-4 ring-offset-slate-950 cursor-pointer"></div>
+                            <div class="w-1.5 h-1.5 rounded-full bg-slate-600 cursor-pointer hover:bg-slate-400 transition"></div>
+                            <div class="w-1.5 h-1.5 rounded-full bg-slate-600 cursor-pointer hover:bg-slate-400 transition"></div>
+                            <div class="w-1.5 h-1.5 rounded-full bg-slate-600 cursor-pointer hover:bg-slate-400 transition"></div>
+                            <div class="w-1.5 h-1.5 rounded-full bg-slate-600 cursor-pointer hover:bg-slate-400 transition"></div>
+                        </div>
+                        <button class="w-8 h-8 flex items-center justify-center rounded bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-white transition shadow"><i class="fa-solid fa-chevron-right text-xs"></i></button>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="konten" class="max-w-[90rem] mx-auto px-6 py-10">
+            <header class="mb-8">
+                <h2 class="text-2xl md:text-3xl font-bold text-white mb-6">Update Terbaru</h2>
+                <div class="flex flex-wrap gap-2 md:gap-3" id="update-kategori-filter">
+                    <button data-type="anime" class="update-kategori-btn bg-orange-600 text-white px-4 md:px-6 py-2 rounded-lg text-sm font-semibold transition cursor-pointer">Anime</button>
+                    <button data-type="manga" class="update-kategori-btn bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white px-4 md:px-6 py-2 rounded-lg text-sm font-semibold transition cursor-pointer">Manga</button>
+                </div>
+            </header>
+
+            <!-- Grid 5 Card sejajar dengan Hero Section: Terhubung ke Jikan API -->
+            <div id="update-terbaru-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 lg:gap-6 pb-6 min-h-[350px]">
+                <!-- Konten dinamis Update Terbaru dari Jikan API akan dimuat di sini -->
+            </div>
+        </section>
+
+        <section id="rekomendasi" class="max-w-[90rem] mx-auto px-6 py-10">
+            <header class="mb-8">
+                <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
+                    <div class="flex items-center gap-3">
+                        <h2 class="text-2xl md:text-3xl font-bold text-white">Rekomendasi</h2>
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap gap-2 md:gap-3" id="kategori-filter">
+                    <button data-type="anime" class="kategori-btn bg-orange-600 text-white px-4 md:px-6 py-2 rounded-lg text-sm font-semibold transition cursor-pointer">Anime</button>
+                    <button data-type="manga" class="kategori-btn bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white px-4 md:px-6 py-2 rounded-lg text-sm font-semibold transition cursor-pointer">Manga</button>
+                </div>
+            </header>
+
+            <!-- Grid Rekomendasi: Di-render secara dinamis menggunakan Fetch API, Template Literals & Array Methods -->
+            <div id="rekomendasi-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 lg:gap-6 pb-6 min-h-[400px]">
+                <!-- Konten akan dimuat secara dinamis melalui Fetch API & Template Literals -->
+            </div>
+
+            <!-- Tombol Muat Lebih Banyak -->
+            <div class="text-center pt-4">
+                <button id="btn-load-more" class="bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-white border border-white/10 hover:border-orange-500/50 font-semibold px-6 py-2.5 rounded-xl transition text-sm cursor-pointer inline-flex items-center gap-2">
+                    <i class="fa-solid fa-arrows-rotate text-xs"></i>
+                    <span>Muat Lebih Banyak</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- SECTION DISCOVERY & UNIFIED SEARCH (Aura-Based Discovery) -->
+        <section id="discovery" class="max-w-[90rem] mx-auto px-6 py-12 scroll-mt-20">
+            <!-- Header Section -->
+            <header class="mb-8">
+                <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
+                    <div>
+                        <h2 class="text-2xl md:text-3xl font-extrabold text-white tracking-tight">Search Content</h2>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Main Layout: Sidebar (Left) + Content (Right) -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-start">
+
+                <!-- SIDEBAR FILTER (Left Column, Sticky on Desktop) -->
+                <aside id="discovery-sidebar-filter" class="lg:col-span-3 xl:col-span-3 bg-slate-900 border border-white/10 rounded-2xl p-5 shadow-xl flex flex-col gap-6 lg:sticky lg:top-[72px] z-20">
+
+                    <!-- Accordion: Genre (Exact match with user's screenshot) -->
+                    <div class="border-b border-white/5 pb-5">
+                        <button type="button" class="accordion-toggle w-full flex items-center justify-between text-left font-bold text-white text-base group cursor-pointer" data-target="genre-accordion-body">
+                            <span>Genre</span>
+                            <i id="genre-chevron" class="fa-solid fa-chevron-up text-xs text-slate-400 group-hover:text-white transition-transform"></i>
+                        </button>
+
+                        <div id="genre-accordion-body" class="mt-4 flex flex-col gap-4">
+                            <!-- Search Genre Input -->
+                            <div class="relative">
+                                <input id="genre-search-input" type="text" placeholder="Search Genre" class="w-full bg-slate-950 border border-white/10 rounded-lg pl-3 pr-8 py-2 text-xs text-white placeholder-slate-500 focus:outline-none focus:ring-1 focus:ring-orange-500 transition">
+                                <i class="fa-solid fa-magnifying-glass absolute right-3 top-2.5 text-xs text-slate-500 pointer-events-none"></i>
+                            </div>
+
+                            <!-- Genre Pills List -->
+                            <div id="genre-pills-container" class="flex flex-wrap gap-1.5">
+                                <!-- Populated dynamically with Action, Adaptation, Adult, Adventure, Comedy, etc. -->
+                            </div>
+
+                            <!-- Inclusion Mode (Custom Dropdown matching Terbaru) -->
+                            <div class="flex flex-col gap-1.5 pt-2 border-t border-white/5">
+                                <label class="text-[11px] font-medium text-slate-400">Inclusion mode</label>
+                                <div class="relative" id="custom-inclusion-dropdown">
+                                    <button id="inclusion-dropdown-trigger" type="button" aria-haspopup="listbox" aria-expanded="false" class="w-full bg-slate-950 hover:bg-slate-900 border border-white/10 hover:border-orange-500/50 rounded-xl px-3 py-2 text-xs font-semibold text-slate-200 flex items-center justify-between cursor-pointer shadow transition select-none">
+                                        <span id="inclusion-dropdown-selected-label">Or</span>
+                                        <i id="inclusion-dropdown-chevron" class="fa-solid fa-chevron-down text-[10px] text-slate-400 transition-transform duration-200"></i>
+                                    </button>
+                                    
+                                    <!-- Floating Dropdown Menu (Popup) -->
+                                    <div id="inclusion-dropdown-menu" class="hidden absolute left-0 right-0 top-full mt-1.5 bg-slate-900/95 backdrop-blur-xl border border-white/10 rounded-2xl p-1.5 shadow-2xl z-40 origin-top transition-all">
+                                        <ul role="listbox" class="flex flex-col gap-0.5">
+                                            <li>
+                                                <button type="button" role="option" data-value="or" data-label="Or" class="inclusion-option-btn w-full flex items-center justify-between px-3 py-2 text-xs font-semibold text-orange-400 bg-orange-500/10 hover:bg-orange-500/15 rounded-xl transition cursor-pointer text-left">
+                                                    <span>Or</span>
+                                                    <i class="inclusion-check fa-solid fa-check text-xs text-orange-400"></i>
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button type="button" role="option" data-value="and" data-label="And" class="inclusion-option-btn w-full flex items-center justify-between px-3 py-2 text-xs font-medium text-slate-300 hover:text-white hover:bg-slate-800/80 rounded-xl transition cursor-pointer text-left">
+                                                    <span>And</span>
+                                                    <i class="inclusion-check fa-solid fa-check text-xs text-orange-400 is-hidden"></i>
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Exclusion Mode (Custom Dropdown matching Terbaru) -->
+                            <div class="flex flex-col gap-1.5">
+                                <label class="text-[11px] font-medium text-slate-400">Exclusion mode</label>
+                                <div class="relative" id="custom-exclusion-dropdown">
+                                    <button id="exclusion-dropdown-trigger" type="button" aria-haspopup="listbox" aria-expanded="false" class="w-full bg-slate-950 hover:bg-slate-900 border border-white/10 hover:border-orange-500/50 rounded-xl px-3 py-2 text-xs font-semibold text-slate-200 flex items-center justify-between cursor-pointer shadow transition select-none">
+                                        <span id="exclusion-dropdown-selected-label">Or</span>
+                                        <i id="exclusion-dropdown-chevron" class="fa-solid fa-chevron-down text-[10px] text-slate-400 transition-transform duration-200"></i>
+                                    </button>
+                                    
+                                    <!-- Floating Dropdown Menu (Popup) -->
+                                    <div id="exclusion-dropdown-menu" class="hidden absolute left-0 right-0 top-full mt-1.5 bg-slate-900/95 backdrop-blur-xl border border-white/10 rounded-2xl p-1.5 shadow-2xl z-40 origin-top transition-all">
+                                        <ul role="listbox" class="flex flex-col gap-0.5">
+                                            <li>
+                                                <button type="button" role="option" data-value="or" data-label="Or" class="exclusion-option-btn w-full flex items-center justify-between px-3 py-2 text-xs font-semibold text-orange-400 bg-orange-500/10 hover:bg-orange-500/15 rounded-xl transition cursor-pointer text-left">
+                                                    <span>Or</span>
+                                                    <i class="exclusion-check fa-solid fa-check text-xs text-orange-400"></i>
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button type="button" role="option" data-value="and" data-label="And" class="exclusion-option-btn w-full flex items-center justify-between px-3 py-2 text-xs font-medium text-slate-300 hover:text-white hover:bg-slate-800/80 rounded-xl transition cursor-pointer text-left">
+                                                    <span>And</span>
+                                                    <i class="exclusion-check fa-solid fa-check text-xs text-orange-400 is-hidden"></i>
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Accordion: Aura Discovery -->
+                    <div class="border-b border-white/5 pb-5">
+                        <button type="button" class="accordion-toggle w-full flex items-center justify-between text-left font-bold text-white text-base group cursor-pointer" data-target="aura-accordion-body">
+                            <span class="flex items-center gap-2">
+                                <span>Aura Discovery</span>
+                            </span>
+                            <i id="aura-chevron" class="fa-solid fa-chevron-up text-xs text-slate-400 group-hover:text-white transition-transform"></i>
+                        </button>
+                        
+                        <div id="aura-accordion-body" class="mt-4 flex flex-col gap-2">
+                            <div class="flex flex-wrap gap-1.5" id="aura-sidebar-buttons">
+                                <button type="button" data-aura="all" class="aura-side-btn active bg-orange-600 text-white text-xs font-semibold px-3 py-1.5 rounded-lg border border-orange-500 transition cursor-pointer shadow-sm">
+                                    Semua
+                                </button>
+                                <button type="button" data-aura="high-energy" class="aura-side-btn bg-slate-950 hover:bg-slate-800 text-slate-300 hover:text-white text-xs font-medium px-3 py-1.5 rounded-lg border border-white/5 transition cursor-pointer">
+                                    High Energy
+                                </button>
+                                <button type="button" data-aura="melancholy" class="aura-side-btn bg-slate-950 hover:bg-slate-800 text-slate-300 hover:text-white text-xs font-medium px-3 py-1.5 rounded-lg border border-white/5 transition cursor-pointer">
+                                    Melancholy
+                                </button>
+                                <button type="button" data-aura="binge" class="aura-side-btn bg-slate-950 hover:bg-slate-800 text-slate-300 hover:text-white text-xs font-medium px-3 py-1.5 rounded-lg border border-white/5 transition cursor-pointer">
+                                    Binge Mode
+                                </button>
+                                <button type="button" data-aura="mind-bending" class="aura-side-btn bg-slate-950 hover:bg-slate-800 text-slate-300 hover:text-white text-xs font-medium px-3 py-1.5 rounded-lg border border-white/5 transition cursor-pointer">
+                                    Mind Bending
+                                </button>
+                                <button type="button" data-aura="chill" class="aura-side-btn bg-slate-950 hover:bg-slate-800 text-slate-300 hover:text-white text-xs font-medium px-3 py-1.5 rounded-lg border border-white/5 transition cursor-pointer">
+                                    Chill Vibes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Accordion: Format -->
+                    <div class="border-b border-white/5 pb-4">
+                        <button type="button" class="accordion-toggle w-full flex items-center justify-between text-left font-bold text-white text-base group cursor-pointer" data-target="format-accordion-body">
+                            <span>Format</span>
+                            <i class="fa-solid fa-chevron-down text-xs text-slate-400 group-hover:text-white transition-transform"></i>
+                        </button>
+                        <div id="format-accordion-body" class="hidden mt-3 flex flex-wrap gap-1.5">
+                            <button type="button" data-format="all" class="format-btn active bg-orange-600 text-white text-xs px-2.5 py-1 rounded-md font-semibold cursor-pointer">Semua</button>
+                            <button type="button" data-format="Manhwa" class="format-btn bg-slate-950 hover:bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded-md border border-white/5 cursor-pointer">Manhwa</button>
+                            <button type="button" data-format="Manga" class="format-btn bg-slate-950 hover:bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded-md border border-white/5 cursor-pointer">Manga</button>
+                            <button type="button" data-format="Manhua" class="format-btn bg-slate-950 hover:bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded-md border border-white/5 cursor-pointer">Manhua</button>
+                            <button type="button" data-format="TV" class="format-btn bg-slate-950 hover:bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded-md border border-white/5 cursor-pointer">Anime TV</button>
+                        </div>
+                    </div>
+
+                    <!-- Accordion: Type -->
+                    <div class="border-b border-white/5 pb-4">
+                        <button type="button" class="accordion-toggle w-full flex items-center justify-between text-left font-bold text-white text-base group cursor-pointer" data-target="type-accordion-body">
+                            <span>Type</span>
+                            <i class="fa-solid fa-chevron-down text-xs text-slate-400 group-hover:text-white transition-transform"></i>
+                        </button>
+                        <div id="type-accordion-body" class="hidden mt-3 flex flex-wrap gap-1.5">
+                            <button type="button" data-type="all" class="type-btn active bg-orange-600 text-white text-xs px-2.5 py-1 rounded-md font-semibold cursor-pointer">Semua</button>
+                            <button type="button" data-type="Anime" class="type-btn bg-slate-950 hover:bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded-md border border-white/5 cursor-pointer">Anime</button>
+                            <button type="button" data-type="Manga" class="type-btn bg-slate-950 hover:bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded-md border border-white/5 cursor-pointer">Manga/Manhwa</button>
+                        </div>
+                    </div>
+
+                    <!-- Accordion: Status -->
+                    <div class="border-b border-white/5 pb-4">
+                        <button type="button" class="accordion-toggle w-full flex items-center justify-between text-left font-bold text-white text-base group cursor-pointer" data-target="status-accordion-body">
+                            <span>Status</span>
+                            <i class="fa-solid fa-chevron-down text-xs text-slate-400 group-hover:text-white transition-transform"></i>
+                        </button>
+                        <div id="status-accordion-body" class="hidden mt-3 flex flex-wrap gap-1.5">
+                            <button type="button" data-status="all" class="status-btn active bg-orange-600 text-white text-xs px-2.5 py-1 rounded-md font-semibold cursor-pointer">Semua</button>
+                            <button type="button" data-status="ongoing" class="status-btn bg-slate-950 hover:bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded-md border border-white/5 cursor-pointer">Ongoing</button>
+                            <button type="button" data-status="tamat" class="status-btn bg-slate-950 hover:bg-slate-800 text-slate-300 text-xs px-2.5 py-1 rounded-md border border-white/5 cursor-pointer">Tamat</button>
+                        </div>
+                    </div>
+
+                    <!-- Accordion: Author -->
+                    <div class="border-b border-white/5 pb-4">
+                        <button type="button" class="accordion-toggle w-full flex items-center justify-between text-left font-bold text-white text-base group cursor-pointer" data-target="author-accordion-body">
+                            <span>Author</span>
+                            <i class="fa-solid fa-chevron-down text-xs text-slate-400 group-hover:text-white transition-transform"></i>
+                        </button>
+                        <div id="author-accordion-body" class="hidden mt-3 text-xs text-slate-400">
+                            <p class="leading-relaxed">Semua penulis komik & kreator aktif tercantum dalam indeks sistem.</p>
+                        </div>
+                    </div>
+
+                    <!-- Accordion: Artist -->
+                    <div>
+                        <button type="button" class="accordion-toggle w-full flex items-center justify-between text-left font-bold text-white text-base group cursor-pointer" data-target="artist-accordion-body">
+                            <span>Artist</span>
+                            <i class="fa-solid fa-chevron-down text-xs text-slate-400 group-hover:text-white transition-transform"></i>
+                        </button>
+                        <div id="artist-accordion-body" class="hidden mt-3 text-xs text-slate-400">
+                            <p class="leading-relaxed">Ilustrator dan studio resmi terdaftar otomatis.</p>
+                        </div>
+                    </div>
+
+                    <!-- Reset Filters Button -->
+                    <button id="btn-reset-all-filters" type="button" class="w-full bg-slate-950 hover:bg-slate-800 text-slate-400 hover:text-white border border-white/10 rounded-xl py-2.5 text-xs font-semibold transition flex items-center justify-center gap-2 cursor-pointer mt-2 shadow">
+                        <i class="fa-solid fa-arrow-rotate-left text-[11px]"></i>
+                        <span>Reset Semua Filter</span>
+                    </button>
+                </aside>
+
+                <!-- CONTENT AREA (Right Column) -->
+                <div class="lg:col-span-9 xl:col-span-9 flex flex-col gap-5 min-w-0">
+
+                    <!-- STICKY CONTROLS CONTAINER (Search, Right Control Actions: Sort Dropdown & Sort Order, and Active Filters Bar & Count) -->
+                    <div id="discovery-sticky-controls" class="sticky top-[72px] z-30 bg-slate-950 pt-2 pb-3 border-b border-white/10 flex flex-col gap-3 before:content-[''] before:absolute before:-top-6 before:inset-x-0 before:h-6 before:bg-slate-950">
+                        <!-- TOP CONTROLS TOOLBAR (Search & Sort Controls) -->
+                        <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3">
+                            <!-- Unified Search Input (Real-time Filtering) -->
+                            <div class="relative flex-1 max-w-lg">
+                                <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-xs text-slate-400"></i>
+                                <input id="unified-search-input" type="text" placeholder="Cari..." 
+                                    class="w-full bg-slate-900 border border-white/10 rounded-xl pl-9 pr-9 py-2.5 text-xs md:text-sm text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition shadow-inner">
+                                <button id="btn-clear-unified-search" class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-slate-500 hover:text-white text-xs cursor-pointer" title="Hapus pencarian">
+                                    <i class="fa-solid fa-circle-xmark"></i>
+                                </button>
+                            </div>
+
+                            <!-- Right Control Actions: Sort Dropdown, Sort Order -->
+                            <div class="flex items-center gap-2 self-end sm:self-auto">
+
+                                <!-- Custom Sort Dropdown (Matching Screenshot 2) -->
+                                <div class="relative" id="custom-sort-dropdown">
+                                    <button id="sort-dropdown-trigger" type="button" aria-haspopup="listbox" aria-expanded="false" class="bg-slate-900 hover:bg-slate-800/80 border border-white/10 hover:border-white/20 rounded-xl px-4 py-2 text-xs font-semibold text-slate-200 flex items-center gap-3 cursor-pointer shadow transition select-none">
+                                        <span id="sort-dropdown-selected-label">Terbaru</span>
+                                        <i id="sort-dropdown-chevron" class="fa-solid fa-chevron-down text-[10px] text-slate-400 transition-transform duration-200"></i>
+                                    </button>
+                                    
+                                    <!-- Floating Dropdown Menu (Popup) -->
+                                    <div id="sort-dropdown-menu" class="hidden absolute right-0 top-full mt-2 w-44 bg-slate-900/95 backdrop-blur-xl border border-white/10 rounded-2xl p-1.5 shadow-2xl z-40 origin-top-right transition-all">
+                                         <ul role="listbox" class="flex flex-col gap-0.5">
+                                            <li>
+                                                <button type="button" role="option" data-value="populer" data-label="Popularitas" class="sort-option-btn w-full flex items-center justify-between px-3 py-2 text-xs font-medium text-slate-300 hover:text-white hover:bg-slate-800/80 rounded-xl transition cursor-pointer text-left">
+                                                    <span>Popularitas</span>
+                                                    <i class="sort-check fa-solid fa-check text-xs text-orange-400 is-hidden"></i>
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button type="button" role="option" data-value="terbaru" data-label="Terbaru" class="sort-option-btn w-full flex items-center justify-between px-3 py-2 text-xs font-semibold text-orange-400 bg-orange-500/10 hover:bg-orange-500/15 rounded-xl transition cursor-pointer text-left">
+                                                    <span>Terbaru</span>
+                                                    <i class="sort-check fa-solid fa-check text-xs text-orange-400"></i>
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button type="button" role="option" data-value="rating" data-label="Rating" class="sort-option-btn w-full flex items-center justify-between px-3 py-2 text-xs font-medium text-slate-300 hover:text-white hover:bg-slate-800/80 rounded-xl transition cursor-pointer text-left">
+                                                    <span>Rating</span>
+                                                    <i class="sort-check fa-solid fa-check text-xs text-orange-400 is-hidden"></i>
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button type="button" role="option" data-value="bookmark" data-label="Bookmark" class="sort-option-btn w-full flex items-center justify-between px-3 py-2 text-xs font-medium text-slate-300 hover:text-white hover:bg-slate-800/80 rounded-xl transition cursor-pointer text-left">
+                                                    <span>Bookmark</span>
+                                                    <i class="sort-check fa-solid fa-check text-xs text-orange-400 is-hidden"></i>
+                                                </button>
+                                            </li>
+                                            <li>
+                                                <button type="button" role="option" data-value="az" data-label="A - Z" class="sort-option-btn w-full flex items-center justify-between px-3 py-2 text-xs font-medium text-slate-300 hover:text-white hover:bg-slate-800/80 rounded-xl transition cursor-pointer text-left">
+                                                    <span>A - Z</span>
+                                                    <i class="sort-check fa-solid fa-check text-xs text-orange-400 is-hidden"></i>
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <!-- Sort Order Toggle -->
+                                <button id="discovery-sort-order-btn" type="button" class="w-9 h-9 rounded-xl bg-slate-900 hover:bg-slate-800 border border-white/10 text-slate-300 hover:text-white flex items-center justify-center text-xs transition cursor-pointer shadow" title="Urutkan Terbalik">
+                                    <i id="sort-order-icon" class="fa-solid fa-arrow-down-wide-short"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Active Filters Bar & Count -->
+                        <div id="discovery-meta-bar" class="flex flex-wrap items-center justify-between text-xs text-slate-400 gap-2 px-1">
+                            <div class="flex flex-wrap items-center gap-2">
+                                <span>Menampilkan <strong id="discovery-item-count" class="text-white font-bold">24</strong> konten</span>
+                                <div id="active-filter-badges" class="flex flex-wrap items-center gap-1.5 ml-2"></div>
+                            </div>
+                            <button id="btn-quick-reset" class="hidden text-orange-400 hover:text-orange-300 underline text-xs cursor-pointer font-medium">Reset Semua Filter</button>
+                        </div>
+                    </div>
+
+                    <!-- Content Cards Grid Container (4 Cards Per Row matching Rekomendasi) -->
+                    <div id="discovery-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 lg:gap-6 pb-6 min-h-[400px]">
+                        <!-- Dynamic cards will be rendered here -->
+                    </div>
+
+                    <!-- Empty State (Shown when no cards match) -->
+                    <div id="discovery-empty-state" class="hidden py-16 px-6 bg-slate-900/60 border border-white/5 rounded-2xl text-center max-w-lg mx-auto shadow-xl">
+                        <div class="w-12 h-12 bg-orange-500/10 text-orange-400 border border-orange-500/20 rounded-full flex items-center justify-center mx-auto mb-3 text-xl">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <h3 class="text-base font-bold text-white mb-2">Konten Tidak Ditemukan</h3>
+                        <p class="text-xs text-slate-400 mb-5 leading-relaxed">Tidak ditemukan judul atau genre yang cocok dengan pencarian dan filter yang kamu pilih.</p>
+                        <button id="btn-empty-reset" type="button" class="bg-orange-600 hover:bg-orange-500 text-white text-xs font-semibold px-4 py-2.5 rounded-xl transition inline-flex items-center gap-2 cursor-pointer shadow">
+                            <i class="fa-solid fa-rotate-left"></i>
+                            <span>Reset Pencarian & Filter</span>
+                        </button>
+                    </div>
+
+                    <!-- Pagination Navigation (Matching screenshot < 1 2 3 >) -->
+                    <nav id="discovery-pagination" aria-label="Navigasi Halaman Katalog" class="flex items-center justify-center gap-2 pt-6 pb-4"></nav>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FITUR -->
+        <section id="fitur" class="max-w-[90rem] mx-auto px-6 py-20">
+            <header class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-white">Kenapa FlipPlay?</h2>
+                <p class="mt-3 text-slate-400">Semua hiburan favoritmu, tanpa pindah-pindah aplikasi.</p>
+            </header>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <article class="bg-slate-900 border border-white/10 hover:border-orange-500/50 rounded-2xl p-6 transition">
+                    <div class="text-3xl mb-4 text-orange-500" aria-hidden="true"><i class="fa-solid fa-clapperboard"></i></div>
+                    <h3 class="font-semibold text-white mb-2">Streaming HD</h3>
+                    <p class="text-sm text-slate-400">Anime dan drama berkualitas tinggi dengan subtitle lengkap.</p>
+                </article>
+                <article class="bg-slate-900 border border-white/10 hover:border-orange-500/50 rounded-2xl p-6 transition">
+                    <div class="text-3xl mb-4 text-orange-500" aria-hidden="true"><i class="fa-solid fa-book-open"></i></div>
+                    <h3 class="font-semibold text-white mb-2">Digital Reading</h3>
+                    <p class="text-sm text-slate-400">Baca manga dan light novel dengan tampilan nyaman di mata.</p>
+                </article>
+                <article class="bg-slate-900 border border-white/10 hover:border-orange-500/50 rounded-2xl p-6 transition">
+                    <div class="text-3xl mb-4 text-orange-500" aria-hidden="true"><i class="fa-solid fa-rotate"></i></div>
+                    <h3 class="font-semibold text-white mb-2">Satu Akun</h3>
+                    <p class="text-sm text-slate-400">Progres nonton dan baca tersimpan otomatis di semua perangkat.</p>
+                </article>
+                <article class="bg-slate-900 border border-white/10 hover:border-orange-500/50 rounded-2xl p-6 transition">
+                    <div class="text-3xl mb-4 text-orange-500" aria-hidden="true"><i class="fa-solid fa-moon"></i></div>
+                    <h3 class="font-semibold text-white mb-2">Mode Gelap</h3>
+                    <p class="text-sm text-slate-400">Antarmuka gelap yang ramah untuk maraton malam hari.</p>
+                </article>
+            </div>
+        </section>
+
+        
+
+        <!-- CONTACT (Split Layout) -->
+        <section id="contact" class="max-w-[90rem] mx-auto px-6 py-20 scroll-mt-20">
+            <header class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-white">Hubungi Kami</h2>
+                <p class="mt-3 text-slate-400">Daftar waitlist untuk akses awal VIP atau kirimkan pertanyaan dan saranmu langsung kepada tim FlipPlay.</p>
+            </header>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-stretch">
+                
+                <!-- Sisi Kiri: Detail Kontak (Nama, Email, Pesan & Komunitas) -->
+                <div class="lg:col-span-5 bg-slate-900 border border-white/10 rounded-2xl p-8 lg:p-10 flex flex-col justify-between shadow-xl relative overflow-hidden group">
+                    <!-- Ambient Glow -->
+                    <div class="absolute -top-24 -left-24 w-60 h-60 bg-orange-600/10 rounded-full blur-3xl pointer-events-none"></div>
+
+                    <div>
+                        <h3 class="text-xl md:text-2xl font-bold text-white mb-2">Informasi Kontak</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                            Hubungi tim resmi kami secara langsung atau bergabunglah dengan komunitas pecinta anime & manga FlipPlay.
+                        </p>
+
+                        <!-- Contact Details List -->
+                        <div class="space-y-4">
+                            <!-- Detail: Nama Kontak -->
+                            <div class="flex items-start gap-4 p-3.5 rounded-xl bg-slate-950/60 border border-white/5">
+                                <div class="w-10 h-10 rounded-lg bg-orange-500/10 text-orange-500 flex items-center justify-center text-lg flex-shrink-0">
+                                    <i class="fa-solid fa-user-shield"></i>
+                                </div>
+                                <div>
+                                    <span class="block text-[11px] text-slate-500 font-medium uppercase tracking-wider">Nama Kontak</span>
+                                    <span class="text-sm font-semibold text-white">Tim Support FlipPlay</span>
+                                </div>
+                            </div>
+
+                            <!-- Detail: Email -->
+                            <div class="flex items-start gap-4 p-3.5 rounded-xl bg-slate-950/60 border border-white/5">
+                                <div class="w-10 h-10 rounded-lg bg-orange-500/10 text-orange-500 flex items-center justify-center text-lg flex-shrink-0">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <span class="block text-[11px] text-slate-500 font-medium uppercase tracking-wider">Alamat Email</span>
+                                    <a href="mailto:support@flipplay.id" class="text-sm font-semibold text-white hover:text-orange-400 transition">support@flipplay.id</a>
+                                </div>
+                            </div>
+
+                            <!-- Detail: Pesan / Jam Operasional -->
+                            <div class="flex items-start gap-4 p-3.5 rounded-xl bg-slate-950/60 border border-white/5">
+                                <div class="w-10 h-10 rounded-lg bg-orange-500/10 text-orange-500 flex items-center justify-center text-lg flex-shrink-0">
+                                    <i class="fa-solid fa-comment-dots"></i>
+                                </div>
+                                <div>
+                                    <span class="block text-[11px] text-slate-500 font-medium uppercase tracking-wider">Layanan Pesan</span>
+                                    <span class="text-sm font-semibold text-white">Respons kilat (08.00 - 23.00 WIB)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Media / Komunitas -->
+                    <div class="pt-8 mt-8 border-t border-white/5">
+                        <span class="block text-xs font-semibold text-slate-400 mb-3 uppercase tracking-wider">Komunitas FlipPlay</span>
+                        <div class="flex items-center gap-3">
+                            <a href="#" class="w-10 h-10 rounded-xl bg-slate-950 hover:bg-orange-500 text-slate-400 hover:text-white flex items-center justify-center border border-white/10 hover:border-transparent transition shadow" aria-label="Discord">
+                                <i class="fa-brands fa-discord text-base"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 rounded-xl bg-slate-950 hover:bg-orange-500 text-slate-400 hover:text-white flex items-center justify-center border border-white/10 hover:border-transparent transition shadow" aria-label="Telegram">
+                                <i class="fa-brands fa-telegram text-base"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 rounded-xl bg-slate-950 hover:bg-orange-500 text-slate-400 hover:text-white flex items-center justify-center border border-white/10 hover:border-transparent transition shadow" aria-label="Twitter">
+                                <i class="fa-brands fa-x-twitter text-base"></i>
+                            </a>
+                            <a href="#" class="w-10 h-10 rounded-xl bg-slate-950 hover:bg-orange-500 text-slate-400 hover:text-white flex items-center justify-center border border-white/10 hover:border-transparent transition shadow" aria-label="Instagram">
+                                <i class="fa-brands fa-instagram text-base"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sisi Kanan: Formulir Kontak -->
+                <div class="lg:col-span-7 bg-slate-900 border border-white/10 rounded-2xl p-8 lg:p-10 shadow-xl flex flex-col justify-between">
+                    <div>
+                        <div class="mb-6">
+                            <h3 class="text-xl md:text-2xl font-bold text-white mb-2">Kirim Pesan</h3>
+                            <p class="text-sm text-slate-400">Silakan lengkapi formulir di bawah ini untuk mengirimkan pesan atau mendaftar waitlist.</p>
+                        </div>
+
+                        <form class="space-y-5">
+                            <div>
+                                <label for="nama" class="block text-sm font-medium text-slate-300 mb-2">Nama Lengkap</label>
+                                <div class="relative">
+                                    <span class="absolute inset-y-0 left-0 flex items-center pl-4 text-slate-500 pointer-events-none">
+                                        <i class="fa-regular fa-user text-sm"></i>
+                                    </span>
+                                    <input id="nama" type="text" placeholder="Masukkan nama lengkapmu" required
+                                        class="w-full bg-slate-950 border border-white/10 rounded-xl pl-11 pr-4 py-3 text-sm text-white placeholder-slate-600 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-slate-300 mb-2">Alamat Email</label>
+                                <div class="relative">
+                                    <span class="absolute inset-y-0 left-0 flex items-center pl-4 text-slate-500 pointer-events-none">
+                                        <i class="fa-regular fa-envelope text-sm"></i>
+                                    </span>
+                                    <input id="email" type="email" placeholder="nama@email.com" required
+                                        class="w-full bg-slate-950 border border-white/10 rounded-xl pl-11 pr-4 py-3 text-sm text-white placeholder-slate-600 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label for="pesan" class="block text-sm font-medium text-slate-300 mb-2">Pesan</label>
+                                <div class="relative">
+                                    <textarea id="pesan" rows="4" placeholder="Tuliskan pesanmu, feedback, atau request judul konten..." required
+                                        class="w-full bg-slate-950 border border-white/10 rounded-xl p-4 text-sm text-white placeholder-slate-600 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition resize-none"></textarea>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="w-full bg-orange-600 hover:bg-orange-500 text-white font-semibold py-3.5 px-6 rounded-xl transition shadow-lg shadow-orange-600/25 flex items-center justify-center gap-2 group cursor-pointer">
+                                <span>Kirim Pesan</span>
+                                <i class="fa-solid fa-paper-plane text-xs group-hover:translate-x-1 transition"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-white/10 mt-10 px-6 py-8 text-center text-sm text-slate-500">
+        <p>&copy; 2026 FlipPlay. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

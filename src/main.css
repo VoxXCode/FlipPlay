@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@source "../index.html";
+@source "../script.js";
+
+@theme {
+  --color-primary: #15803d;    /* Hijau Utama */
+  --color-secondary: #22c55e;  /* Hijau Cerah */
+  --color-accent: #86efac;     /* Hijau Muda */
+  --color-surface: #f0fdf4;    /* Warna Latar Soft */
+  --color-text-main: #022c22;  /* Warna Teks Gelap */
+
+  /* Tambahan untuk tema dark */
+  --color-dark: #04130d;       /* Latar utama dark */
+  --color-card: #0a1f16;       /* Latar kartu dark */
+}

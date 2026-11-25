@@ -1,0 +1,1855 @@
+{
+  "banner": [
+    {
+      "mal_id": 52991,
+      "title": "Sousou no Frieren",
+      "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren",
+      "images": {
+        "jpg": {
+          "large_image_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154587-qQTzQnEJJ3oB.jpg"
+        }
+      },
+      "score": 9.32,
+      "type": "TV",
+      "year": 2023,
+      "rank": 1,
+      "synopsis": "Setelah petualangan sepuluh tahun mengalahkan Raja Iblis, penyihir elf Frieren berpisah dengan rekan-rekannya. Bertahun-tahun berlalu, ia menyaksikan kematian satu demi satu rekannya karena waktu manusia yang singkat. Frieren kemudian memulai perjalanan baru untuk memahami nilai kehidupan dan kenangan yang ditinggalkan."
+    },
+    {
+      "mal_id": 5114,
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "url": "https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood",
+      "images": {
+        "jpg": {
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1208/94745l.jpg"
+        }
+      },
+      "score": 9.09,
+      "type": "TV",
+      "year": 2009,
+      "rank": 2,
+      "synopsis": "Dua bersaudara Edward dan Alphonse Elric mencoba alkimia terlarang untuk membangkitkan ibu mereka. Kegagalan fatal membuat Alphonse kehilangan tubuhnya dan Edward kehilangan lengan dan kakinya. Mereka memulai pengembaraan mencari Batu Bertuah untuk memulihkan tubuh mereka kembali."
+    },
+    {
+      "mal_id": 38524,
+      "title": "Shingeki no Kyojin Season 3 Part 2",
+      "url": "https://myanimelist.net/anime/38524/Shingeki_no_Kyojin_Season_3_Part_2",
+      "images": {
+        "jpg": {
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1517/100633l.jpg"
+        }
+      },
+      "score": 9.05,
+      "type": "TV",
+      "year": 2019,
+      "rank": 5,
+      "synopsis": "Pasukan Pengintai memulai misi merebut kembali Wall Maria di Distrik Shiganshina. Di sana, pertempuran mematikan melawan Titan Binatang, Titan Berzirah, dan Titan Kolosal menentukan nasib akhir umat manusia dan membuka rahasia ruang bawah tanah kediaman Eren Yeager."
+    },
+    {
+      "mal_id": 11061,
+      "title": "Hunter x Hunter (2011)",
+      "url": "https://myanimelist.net/anime/11061/Hunter_x_Hunter_2011",
+      "images": {
+        "jpg": {
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1337/99013l.jpg"
+        }
+      },
+      "score": 9.04,
+      "type": "TV",
+      "year": 2011,
+      "rank": 6,
+      "synopsis": "Gon Freecss memulai petualangan untuk menjadi Hunter berlisensi demi menemukan jejak ayahnya yang seorang Hunter legendaris. Bersama Killua, Kurapika, dan Leorio, Gon menghadapi berbagai ujian maut dan pertempuran sengit melawan musuh-musuh berkemampuan Nen tingkat tinggi."
+    },
+    {
+      "mal_id": 9253,
+      "title": "Steins;Gate",
+      "url": "https://myanimelist.net/anime/9253/Steins_Gate",
+      "images": {
+        "jpg": {
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1935/127974l.jpg"
+        }
+      },
+      "score": 9.07,
+      "type": "TV",
+      "year": 2011,
+      "rank": 3,
+      "synopsis": "Rintaro Okabe, seorang ilmuwan gila yang memproklamirkan dirinya sendiri, secara tidak sengaja menemukan cara mengirim pesan ke masa lalu menggunakan microwave yang dimodifikasi. Setiap perubahan garis waktu menimbulkan konsekuensi mengerikan yang mengancam orang-orang terdekatnya."
+    }
+  ],
+  "updateTerbaru": {
+    "anime": [
+      {
+        "mal_id": 58567,
+        "title": "Solo Leveling Season 2: Arise from the Shadow",
+        "url": "https://myanimelist.net/anime/58567/Ore_dake_Level_Up_na_Ken_Season_2__Arise_from_the_Shadow",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176496-9BDMjAZGEbq4.png"
+          }
+        },
+        "score": 8.52,
+        "type": "TV",
+        "episodes": 13,
+        "status": "Currently Airing",
+        "year": 2025,
+        "rank": 120,
+        "members": 410000
+      },
+      {
+        "mal_id": 58568,
+        "title": "Sakamoto Days",
+        "url": "https://myanimelist.net/anime/58568/Sakamoto_Days",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177709-e5Qx6RlsBgD5.png"
+          }
+        },
+        "score": 8.35,
+        "type": "TV",
+        "episodes": 11,
+        "status": "Currently Airing",
+        "year": 2025,
+        "rank": 180,
+        "members": 260000
+      },
+      {
+        "mal_id": 57334,
+        "title": "Dandadan",
+        "url": "https://myanimelist.net/anime/57334/Dandadan",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171018-60q1B6GK2Ghb.jpg"
+          }
+        },
+        "score": 8.65,
+        "type": "TV",
+        "episodes": 12,
+        "status": "Currently Airing",
+        "year": 2024,
+        "rank": 65,
+        "members": 580000
+      },
+      {
+        "mal_id": 54857,
+        "title": "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season",
+        "url": "https://myanimelist.net/anime/54857/Re_Zero_kara_Hajimeru_Isekai_Seikatsu_3rd_Season",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx163134-yieRFbvUOH9a.jpg"
+          }
+        },
+        "score": 8.58,
+        "type": "TV",
+        "episodes": 16,
+        "status": "Currently Airing",
+        "year": 2024,
+        "rank": 95,
+        "members": 390000
+      },
+      {
+        "mal_id": 56784,
+        "title": "Bleach: Sennen Kessen-hen - Soukoku-tan",
+        "url": "https://myanimelist.net/anime/56784/Bleach__Sennen_Kessen-hen_-_Soukoku-tan",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx169755-Rqb7MjnzdTc6.jpg"
+          }
+        },
+        "score": 8.88,
+        "type": "TV",
+        "episodes": 13,
+        "status": "Currently Airing",
+        "year": 2024,
+        "rank": 25,
+        "members": 280000
+      }
+    ],
+    "manga": [
+      {
+        "mal_id": 113138,
+        "title": "Jujutsu Kaisen",
+        "url": "https://myanimelist.net/manga/113138/Jujutsu_Kaisen",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx101517-H3TdM3g5ZUe9.jpg"
+          }
+        },
+        "score": 8.44,
+        "type": "Manga",
+        "chapters": 271,
+        "status": "Finished",
+        "year": 2018,
+        "rank": 135,
+        "members": 420000
+      },
+      {
+        "mal_id": 116778,
+        "title": "Chainsaw Man",
+        "url": "https://myanimelist.net/manga/116778/Chainsaw_Man",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx105778-euxXZEIfDY2u.png"
+          }
+        },
+        "score": 8.74,
+        "type": "Manga",
+        "chapters": 180,
+        "status": "Publishing",
+        "year": 2018,
+        "rank": 42,
+        "members": 580000
+      },
+      {
+        "mal_id": 119161,
+        "title": "Spy x Family",
+        "url": "https://myanimelist.net/manga/119161/Spy_x_Family",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx108556-NHjkz0BNJhLx.jpg"
+          }
+        },
+        "score": 8.52,
+        "type": "Manga",
+        "chapters": 105,
+        "status": "Publishing",
+        "year": 2019,
+        "rank": 108,
+        "members": 370000
+      },
+      {
+        "mal_id": 126146,
+        "title": "[Oshi no Ko]",
+        "url": "https://myanimelist.net/manga/126146/Oshi_no_Ko",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx117195-r3kf8eF0xkDJ.png"
+          }
+        },
+        "score": 8.61,
+        "type": "Manga",
+        "chapters": 166,
+        "status": "Finished",
+        "year": 2020,
+        "rank": 82,
+        "members": 290000
+      },
+      {
+        "mal_id": 114745,
+        "title": "Blue Lock",
+        "url": "https://myanimelist.net/manga/114745/Blue_Lock",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx106130-yPNeuSu75ey1.jpg"
+          }
+        },
+        "score": 8.32,
+        "type": "Manga",
+        "chapters": 280,
+        "status": "Publishing",
+        "year": 2018,
+        "rank": 215,
+        "members": 240000
+      }
+    ]
+  },
+  "rekomendasi": {
+    "anime": [
+      {
+        "mal_id": 52991,
+        "title": "Sousou no Frieren",
+        "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154587-qQTzQnEJJ3oB.jpg"
+          }
+        },
+        "score": 9.32,
+        "type": "TV",
+        "episodes": 28,
+        "status": "Finished Airing",
+        "year": 2023,
+        "rank": 1,
+        "members": 960000
+      },
+      {
+        "mal_id": 5114,
+        "title": "Fullmetal Alchemist: Brotherhood",
+        "url": "https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://cdn.myanimelist.net/images/anime/1208/94745l.jpg"
+          }
+        },
+        "score": 9.09,
+        "type": "TV",
+        "episodes": 64,
+        "status": "Finished Airing",
+        "year": 2009,
+        "rank": 2,
+        "members": 3300000
+      },
+      {
+        "mal_id": 9253,
+        "title": "Steins;Gate",
+        "url": "https://myanimelist.net/anime/9253/Steins_Gate",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://cdn.myanimelist.net/images/anime/1935/127974l.jpg"
+          }
+        },
+        "score": 9.07,
+        "type": "TV",
+        "episodes": 24,
+        "status": "Finished Airing",
+        "year": 2011,
+        "rank": 3,
+        "members": 2500000
+      },
+      {
+        "mal_id": 28977,
+        "title": "Gintama°",
+        "url": "https://myanimelist.net/anime/28977/Gintama°",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://cdn.myanimelist.net/images/anime/3/72078l.jpg"
+          }
+        },
+        "score": 9.06,
+        "type": "TV",
+        "episodes": 51,
+        "status": "Finished Airing",
+        "year": 2015,
+        "rank": 4,
+        "members": 620000
+      },
+      {
+        "mal_id": 38524,
+        "title": "Shingeki no Kyojin Season 3 Part 2",
+        "url": "https://myanimelist.net/anime/38524/Shingeki_no_Kyojin_Season_3_Part_2",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://cdn.myanimelist.net/images/anime/1517/100633l.jpg"
+          }
+        },
+        "score": 9.05,
+        "type": "TV",
+        "episodes": 10,
+        "status": "Finished Airing",
+        "year": 2019,
+        "rank": 5,
+        "members": 2200000
+      },
+      {
+        "mal_id": 11061,
+        "title": "Hunter x Hunter (2011)",
+        "url": "https://myanimelist.net/anime/11061/Hunter_x_Hunter_2011",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://cdn.myanimelist.net/images/anime/1337/99013l.jpg"
+          }
+        },
+        "score": 9.04,
+        "type": "TV",
+        "episodes": 148,
+        "status": "Finished Airing",
+        "year": 2011,
+        "rank": 6,
+        "members": 2800000
+      },
+      {
+        "mal_id": 41467,
+        "title": "Bleach: Sennen Kessen-hen",
+        "url": "https://myanimelist.net/anime/41467/Bleach__Sennen_Kessen-hen",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://cdn.myanimelist.net/images/anime/1764/126627l.jpg"
+          }
+        },
+        "score": 9.01,
+        "type": "TV",
+        "episodes": 13,
+        "status": "Finished Airing",
+        "year": 2022,
+        "rank": 7,
+        "members": 530000
+      },
+      {
+        "mal_id": 9969,
+        "title": "Gintama'",
+        "url": "https://myanimelist.net/anime/9969/Gintama",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://cdn.myanimelist.net/images/anime/4/50361l.jpg"
+          }
+        },
+        "score": 9.03,
+        "type": "TV",
+        "episodes": 51,
+        "status": "Finished Airing",
+        "year": 2011,
+        "rank": 8,
+        "members": 540000
+      },
+      {
+        "mal_id": 43608,
+        "title": "Kaguya-sama wa Kokurasetai: Ultra Romantic",
+        "url": "https://myanimelist.net/anime/43608/Kaguya-sama_wa_Kokurasetai__Ultra_Romantic",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://cdn.myanimelist.net/images/anime/1160/122627l.jpg"
+          }
+        },
+        "score": 8.98,
+        "type": "TV",
+        "episodes": 13,
+        "status": "Finished Airing",
+        "year": 2022,
+        "rank": 9,
+        "members": 900000
+      },
+      {
+        "mal_id": 4181,
+        "title": "Clannad: After Story",
+        "url": "https://myanimelist.net/anime/4181/Clannad__After_Story",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://cdn.myanimelist.net/images/anime/1299/110774l.jpg"
+          }
+        },
+        "score": 8.93,
+        "type": "TV",
+        "episodes": 24,
+        "status": "Finished Airing",
+        "year": 2008,
+        "rank": 10,
+        "members": 1200000
+      }
+    ],
+    "manga": [
+      {
+        "mal_id": 2,
+        "title": "Berserk",
+        "url": "https://myanimelist.net/manga/2/Berserk",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://cdn.myanimelist.net/images/manga/1/157897l.jpg"
+          }
+        },
+        "score": 9.47,
+        "type": "Manga",
+        "chapters": 376,
+        "status": "Publishing",
+        "year": 1989,
+        "rank": 1,
+        "members": 700000
+      },
+      {
+        "mal_id": 1706,
+        "title": "JoJo no Kimyou na Bouken Part 7: Steel Ball Run",
+        "url": "https://myanimelist.net/manga/1706/JoJo_no_Kimyou_na_Bouken_Part_7__Steel_Ball_Run",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://cdn.myanimelist.net/images/manga/3/179882l.jpg"
+          }
+        },
+        "score": 9.31,
+        "type": "Manga",
+        "chapters": 95,
+        "status": "Finished",
+        "year": 2004,
+        "rank": 2,
+        "members": 290000
+      },
+      {
+        "mal_id": 656,
+        "title": "Vagabond",
+        "url": "https://myanimelist.net/manga/656/Vagabond",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://cdn.myanimelist.net/images/manga/1/259070l.jpg"
+          }
+        },
+        "score": 9.26,
+        "type": "Manga",
+        "chapters": 327,
+        "status": "On Hiatus",
+        "year": 1998,
+        "rank": 3,
+        "members": 410000
+      },
+      {
+        "mal_id": 13,
+        "title": "One Piece",
+        "url": "https://myanimelist.net/manga/13/One_Piece",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://cdn.myanimelist.net/images/manga/2/253146l.jpg"
+          }
+        },
+        "score": 9.22,
+        "type": "Manga",
+        "chapters": 1100,
+        "status": "Publishing",
+        "year": 1997,
+        "rank": 4,
+        "members": 650000
+      },
+      {
+        "mal_id": 1,
+        "title": "Monster",
+        "url": "https://myanimelist.net/manga/1/Monster",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://cdn.myanimelist.net/images/manga/3/258224l.jpg"
+          }
+        },
+        "score": 9.15,
+        "type": "Manga",
+        "chapters": 162,
+        "status": "Finished",
+        "year": 1994,
+        "rank": 5,
+        "members": 270000
+      },
+      {
+        "mal_id": 642,
+        "title": "Vinland Saga",
+        "url": "https://myanimelist.net/manga/642/Vinland_Saga",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30642-0mjRDkf4THpo.jpg"
+          }
+        },
+        "score": 9.07,
+        "type": "Manga",
+        "chapters": 212,
+        "status": "Publishing",
+        "year": 2005,
+        "rank": 6,
+        "members": 330000
+      },
+      {
+        "mal_id": 25,
+        "title": "Fullmetal Alchemist",
+        "url": "https://myanimelist.net/manga/25/Fullmetal_Alchemist",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://cdn.myanimelist.net/images/manga/3/243675l.jpg"
+          }
+        },
+        "score": 9.03,
+        "type": "Manga",
+        "chapters": 116,
+        "status": "Finished",
+        "year": 2001,
+        "rank": 7,
+        "members": 310000
+      },
+      {
+        "mal_id": 70345,
+        "title": "Grand Blue",
+        "url": "https://myanimelist.net/manga/70345/Grand_Blue",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://cdn.myanimelist.net/images/manga/2/166124l.jpg"
+          }
+        },
+        "score": 9.01,
+        "type": "Manga",
+        "chapters": 92,
+        "status": "Publishing",
+        "year": 2014,
+        "rank": 8,
+        "members": 190000
+      },
+      {
+        "mal_id": 4632,
+        "title": "Oyasumi Punpun",
+        "url": "https://myanimelist.net/manga/4632/Oyasumi_Punpun",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://cdn.myanimelist.net/images/manga/3/164420l.jpg"
+          }
+        },
+        "score": 8.99,
+        "type": "Manga",
+        "chapters": 147,
+        "status": "Finished",
+        "year": 2007,
+        "rank": 9,
+        "members": 460000
+      },
+      {
+        "mal_id": 51,
+        "title": "Slam Dunk",
+        "url": "https://myanimelist.net/manga/51/Slam_Dunk",
+        "images": {
+          "jpg": {
+            "large_image_url": "https://cdn.myanimelist.net/images/manga/2/258749l.jpg"
+          }
+        },
+        "score": 8.98,
+        "type": "Manga",
+        "chapters": 276,
+        "status": "Finished",
+        "year": 1990,
+        "rank": 10,
+        "members": 180000
+      }
+    ]
+  },
+  "catalog": [
+    {
+      "id": 1,
+      "title": "The Count's Youngest Son Is A Player!",
+      "url": "https://myanimelist.net/manga/130424",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx123573-LKoCKwRouEMW.png",
+      "aura": [
+        "binge",
+        "high-energy"
+      ],
+      "genre": [
+        "Action",
+        "Fantasy",
+        "Adventure",
+        "Adaptation"
+      ],
+      "format": "Manhwa",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "9s",
+      "up": true,
+      "views": "4.4M",
+      "rawViews": 4400000,
+      "latestRelease": "CH.161",
+      "score": 8.9,
+      "year": 2020
+    },
+    {
+      "id": 2,
+      "title": "The Ruined World Was Mistaken for a Game",
+      "url": "https://myanimelist.net/manga/153648",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx156477-uM3wUBlYEaap.png",
+      "aura": [
+        "mind-bending",
+        "binge"
+      ],
+      "genre": [
+        "Action",
+        "Fantasy",
+        "Sci-Fi",
+        "Psychological"
+      ],
+      "format": "Manhwa",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "18s",
+      "up": true,
+      "views": "247.2k",
+      "rawViews": 247200,
+      "latestRelease": "CH.28",
+      "score": 8.4,
+      "year": 2023
+    },
+    {
+      "id": 3,
+      "title": "The Heavenly Path's Annihilation",
+      "url": "https://myanimelist.net/manga/153098",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx153432-flZLVek7Ei1Z.png",
+      "aura": [
+        "high-energy",
+        "melancholy"
+      ],
+      "genre": [
+        "Action",
+        "Martial Arts",
+        "Historical",
+        "Supernatural"
+      ],
+      "format": "Manhwa",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "33s",
+      "up": true,
+      "views": "129.5k",
+      "rawViews": 129500,
+      "latestRelease": "CH.22",
+      "score": 8.6,
+      "year": 2022
+    },
+    {
+      "id": 4,
+      "title": "The Supreme Demon Swordmaster",
+      "url": "https://myanimelist.net/manga/150125",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx149332-adkSyOFY3c5U.jpg",
+      "aura": [
+        "high-energy",
+        "binge"
+      ],
+      "genre": [
+        "Action",
+        "Fantasy",
+        "Demon",
+        "Demons"
+      ],
+      "format": "Manhwa",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "35s",
+      "up": true,
+      "views": "1.1M",
+      "rawViews": 1100000,
+      "latestRelease": "CH.57",
+      "score": 8.7,
+      "year": 2022
+    },
+    {
+      "id": 5,
+      "title": "I'm Going To Destroy This Country",
+      "url": "https://myanimelist.net/manga/147820",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx136220-u9sewv3u02mN.jpg",
+      "aura": [
+        "high-energy",
+        "melancholy"
+      ],
+      "genre": [
+        "Action",
+        "Drama",
+        "Supernatural",
+        "Thriller"
+      ],
+      "format": "Manhwa",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "1m",
+      "up": true,
+      "views": "5.4M",
+      "rawViews": 5400000,
+      "latestRelease": "CH.98.7",
+      "score": 8.8,
+      "year": 2021
+    },
+    {
+      "id": 6,
+      "title": "The World's Best Kunlun Tavern",
+      "url": "https://myanimelist.net/manga/141982",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx132144-i5B4VnG9sRgh.png",
+      "aura": [
+        "chill",
+        "binge"
+      ],
+      "genre": [
+        "Comedy",
+        "Martial Arts",
+        "Cooking",
+        "Slice of Life"
+      ],
+      "format": "Manhwa",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "32m",
+      "up": true,
+      "views": "1.6M",
+      "rawViews": 1600000,
+      "latestRelease": "CH.134",
+      "score": 8.5,
+      "year": 2021
+    },
+    {
+      "id": 7,
+      "title": "The Ultimate of All Ages",
+      "url": "https://myanimelist.net/manga/128746",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx116353-DYuIigXuPwpZ.jpg",
+      "aura": [
+        "high-energy",
+        "binge"
+      ],
+      "genre": [
+        "Action",
+        "Fantasy",
+        "Adventure",
+        "Martial Arts"
+      ],
+      "format": "Manhua",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "33m",
+      "up": true,
+      "views": "14.4M",
+      "rawViews": 14400000,
+      "latestRelease": "CH.576",
+      "score": 8.3,
+      "year": 2019
+    },
+    {
+      "id": 8,
+      "title": "Study Group",
+      "url": "https://myanimelist.net/manga/122184",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx110472-jxJG7CZ3lf4d.jpg",
+      "aura": [
+        "high-energy",
+        "chill"
+      ],
+      "genre": [
+        "Action",
+        "Drama",
+        "Martial Arts",
+        "Comedy"
+      ],
+      "format": "Manhwa",
+      "type": "Manga",
+      "status": "ongoing",
+      "country": "🇰🇷",
+      "timeAgo": "33m",
+      "up": true,
+      "views": "776.2k",
+      "rawViews": 776200,
+      "latestRelease": "CH.328",
+      "score": 8.5,
+      "year": 2019
+    },
+    {
+      "id": 9,
+      "title": "The Sword Emperor Who Surpasses His Previous Life",
+      "url": "https://myanimelist.net/manga/149950",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx137280-juUL79K7f9s7.png",
+      "aura": [
+        "high-energy",
+        "binge"
+      ],
+      "genre": [
+        "Action",
+        "Fantasy",
+        "Adaptation",
+        "Magic"
+      ],
+      "format": "Manhwa",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "34m",
+      "up": true,
+      "views": "865.8k",
+      "rawViews": 865800,
+      "latestRelease": "CH.45",
+      "score": 8.4,
+      "year": 2022
+    },
+    {
+      "id": 10,
+      "title": "The Hero Returns",
+      "url": "https://myanimelist.net/manga/148765",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx146017-Xv0ma1h8ShJc.jpg",
+      "aura": [
+        "high-energy",
+        "binge"
+      ],
+      "genre": [
+        "Action",
+        "Supernatural",
+        "Fantasy",
+        "Adventure"
+      ],
+      "format": "Manhwa",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "34m",
+      "up": true,
+      "views": "7.2M",
+      "rawViews": 7200000,
+      "latestRelease": "CH.175",
+      "score": 8.7,
+      "year": 2022
+    },
+    {
+      "id": 11,
+      "title": "The Grand Duke's New Daughter-in-Law is a Menace",
+      "url": "https://myanimelist.net/manga/158920",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx108556-NHjkz0BNJhLx.jpg",
+      "aura": [
+        "chill",
+        "binge"
+      ],
+      "genre": [
+        "Romance",
+        "Comedy",
+        "Fantasy",
+        "Historical"
+      ],
+      "format": "Manhwa",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "35m",
+      "up": true,
+      "views": "94.6k",
+      "rawViews": 94600,
+      "latestRelease": "CH.23",
+      "score": 8.2,
+      "year": 2023
+    },
+    {
+      "id": 12,
+      "title": "Tang Clan Legend",
+      "url": "https://myanimelist.net/manga/149811",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx106929-flAUvHZDUz5v.jpg",
+      "aura": [
+        "high-energy",
+        "mind-bending"
+      ],
+      "genre": [
+        "Martial Arts",
+        "Historical",
+        "Action",
+        "Drama"
+      ],
+      "format": "Manhwa",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "36m",
+      "up": true,
+      "views": "488.7k",
+      "rawViews": 488700,
+      "latestRelease": "CH.64",
+      "score": 8.4,
+      "year": 2022
+    },
+    {
+      "id": 13,
+      "title": "Solo Leveling Season 2: Arise from the Shadow",
+      "url": "https://myanimelist.net/anime/58567",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx176496-9BDMjAZGEbq4.png",
+      "aura": [
+        "high-energy",
+        "binge"
+      ],
+      "genre": [
+        "Action",
+        "Fantasy",
+        "Supernatural",
+        "Adventure"
+      ],
+      "format": "TV",
+      "type": "Anime",
+      "status": "ongoing",
+      "timeAgo": "37m",
+      "up": true,
+      "views": "3.8M",
+      "rawViews": 3800000,
+      "latestRelease": "EP.13",
+      "score": 8.8,
+      "year": 2025
+    },
+    {
+      "id": 14,
+      "title": "Sousou no Frieren",
+      "url": "https://myanimelist.net/anime/52991",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx154587-qQTzQnEJJ3oB.jpg",
+      "aura": [
+        "melancholy",
+        "chill"
+      ],
+      "genre": [
+        "Adventure",
+        "Drama",
+        "Fantasy",
+        "Magic"
+      ],
+      "format": "TV",
+      "type": "Anime",
+      "status": "tamat",
+      "timeAgo": "38m",
+      "up": false,
+      "views": "4.1M",
+      "rawViews": 4100000,
+      "latestRelease": "EP.28",
+      "score": 9.3,
+      "year": 2023
+    },
+    {
+      "id": 15,
+      "title": "Sakamoto Days",
+      "url": "https://myanimelist.net/anime/58568",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx177709-e5Qx6RlsBgD5.png",
+      "aura": [
+        "high-energy",
+        "chill",
+        "binge"
+      ],
+      "genre": [
+        "Action",
+        "Comedy",
+        "Supernatural",
+        "Crime"
+      ],
+      "format": "TV",
+      "type": "Anime",
+      "status": "ongoing",
+      "timeAgo": "38m",
+      "up": true,
+      "views": "1.9M",
+      "rawViews": 1900000,
+      "latestRelease": "EP.11",
+      "score": 8.4,
+      "year": 2025
+    },
+    {
+      "id": 16,
+      "title": "Dandadan",
+      "url": "https://myanimelist.net/anime/57334",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171018-60q1B6GK2Ghb.jpg",
+      "aura": [
+        "high-energy",
+        "mind-bending",
+        "binge"
+      ],
+      "genre": [
+        "Action",
+        "Comedy",
+        "Supernatural",
+        "Sci-Fi"
+      ],
+      "format": "TV",
+      "type": "Anime",
+      "status": "ongoing",
+      "timeAgo": "39m",
+      "up": true,
+      "views": "2.6M",
+      "rawViews": 2600000,
+      "latestRelease": "EP.12",
+      "score": 8.7,
+      "year": 2024
+    },
+    {
+      "id": 17,
+      "title": "Jujutsu Kaisen",
+      "url": "https://myanimelist.net/manga/113138",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx101517-H3TdM3g5ZUe9.jpg",
+      "aura": [
+        "high-energy",
+        "melancholy"
+      ],
+      "genre": [
+        "Action",
+        "Supernatural",
+        "Demon",
+        "Demons"
+      ],
+      "format": "Manga",
+      "type": "Manga",
+      "status": "tamat",
+      "timeAgo": "40m",
+      "up": false,
+      "views": "5.2M",
+      "rawViews": 5200000,
+      "latestRelease": "CH.271",
+      "score": 8.5,
+      "year": 2018
+    },
+    {
+      "id": 18,
+      "title": "Chainsaw Man",
+      "url": "https://myanimelist.net/manga/116778",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx105778-euxXZEIfDY2u.png",
+      "aura": [
+        "high-energy",
+        "mind-bending",
+        "melancholy"
+      ],
+      "genre": [
+        "Action",
+        "Supernatural",
+        "Demon",
+        "Drama"
+      ],
+      "format": "Manga",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "41m",
+      "up": true,
+      "views": "4.9M",
+      "rawViews": 4900000,
+      "latestRelease": "CH.180",
+      "score": 8.7,
+      "year": 2018
+    },
+    {
+      "id": 19,
+      "title": "Omniscient Reader's Viewpoint",
+      "url": "https://myanimelist.net/manga/132214",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx119257-Pi21aq3ey9GG.jpg",
+      "aura": [
+        "mind-bending",
+        "binge",
+        "high-energy"
+      ],
+      "genre": [
+        "Action",
+        "Fantasy",
+        "Psychological",
+        "Supernatural"
+      ],
+      "format": "Manhwa",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "42m",
+      "up": true,
+      "views": "6.8M",
+      "rawViews": 6800000,
+      "latestRelease": "CH.225",
+      "score": 9.1,
+      "year": 2020
+    },
+    {
+      "id": 20,
+      "title": "Berserk",
+      "url": "https://myanimelist.net/manga/2",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30002-Cul4OeN7bYtn.jpg",
+      "aura": [
+        "melancholy",
+        "high-energy"
+      ],
+      "genre": [
+        "Action",
+        "Fantasy",
+        "Demons",
+        "Psychological"
+      ],
+      "format": "Manga",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "45m",
+      "up": false,
+      "views": "3.9M",
+      "rawViews": 3900000,
+      "latestRelease": "CH.376",
+      "score": 9.5,
+      "year": 1989
+    },
+    {
+      "id": 21,
+      "title": "Steins;Gate",
+      "url": "https://myanimelist.net/anime/9253",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx9253-tIUXF2gfU8Sg.jpg",
+      "aura": [
+        "mind-bending",
+        "melancholy",
+        "binge"
+      ],
+      "genre": [
+        "Sci-Fi",
+        "Psychological",
+        "Thriller",
+        "Drama"
+      ],
+      "format": "TV",
+      "type": "Anime",
+      "status": "tamat",
+      "timeAgo": "50m",
+      "up": false,
+      "views": "3.5M",
+      "rawViews": 3500000,
+      "latestRelease": "EP.24",
+      "score": 9.1,
+      "year": 2011
+    },
+    {
+      "id": 22,
+      "title": "Spy x Family",
+      "url": "https://myanimelist.net/manga/119161",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx108556-NHjkz0BNJhLx.jpg",
+      "aura": [
+        "chill",
+        "binge"
+      ],
+      "genre": [
+        "Comedy",
+        "Action",
+        "Slice of Life"
+      ],
+      "format": "Manga",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "55m",
+      "up": true,
+      "views": "3.2M",
+      "rawViews": 3200000,
+      "latestRelease": "CH.105",
+      "score": 8.5,
+      "year": 2019
+    },
+    {
+      "id": 23,
+      "title": "[Oshi no Ko]",
+      "url": "https://myanimelist.net/manga/126146",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx117195-r3kf8eF0xkDJ.png",
+      "aura": [
+        "mind-bending",
+        "melancholy",
+        "binge"
+      ],
+      "genre": [
+        "Drama",
+        "Mystery",
+        "Supernatural",
+        "Psychological"
+      ],
+      "format": "Manga",
+      "type": "Manga",
+      "status": "tamat",
+      "timeAgo": "1h",
+      "up": false,
+      "views": "2.9M",
+      "rawViews": 2900000,
+      "latestRelease": "CH.166",
+      "score": 8.6,
+      "year": 2020
+    },
+    {
+      "id": 24,
+      "title": "Blue Lock",
+      "url": "https://myanimelist.net/manga/114745",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx106130-yPNeuSu75ey1.jpg",
+      "aura": [
+        "high-energy",
+        "binge"
+      ],
+      "genre": [
+        "Action",
+        "Psychological",
+        "Drama"
+      ],
+      "format": "Manga",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "1h",
+      "up": true,
+      "views": "2.7M",
+      "rawViews": 2700000,
+      "latestRelease": "CH.280",
+      "score": 8.3,
+      "year": 2018
+    },
+    {
+      "id": 25,
+      "title": "Attack on Titan",
+      "url": "https://myanimelist.net/anime/16498",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx16498-m5htTQbb8UB4.jpg",
+      "aura": [
+        "high-energy",
+        "melancholy"
+      ],
+      "genre": [
+        "Action",
+        "Drama",
+        "Fantasy",
+        "Mystery"
+      ],
+      "format": "TV",
+      "type": "Anime",
+      "status": "tamat",
+      "timeAgo": "1h",
+      "up": false,
+      "views": "8.9M",
+      "rawViews": 8900000,
+      "latestRelease": "EP.87",
+      "score": 9,
+      "year": 2013
+    },
+    {
+      "id": 26,
+      "title": "One Piece",
+      "url": "https://myanimelist.net/manga/13",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30013-1466YjJc507m.jpg",
+      "aura": [
+        "binge",
+        "high-energy"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Fantasy"
+      ],
+      "format": "Manga",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "1h",
+      "up": true,
+      "views": "12.4M",
+      "rawViews": 12400000,
+      "latestRelease": "CH.1130",
+      "score": 9.2,
+      "year": 1997
+    },
+    {
+      "id": 27,
+      "title": "Death Note",
+      "url": "https://myanimelist.net/anime/1535",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1535-4r88uZzpvDvd.jpg",
+      "aura": [
+        "mind-bending",
+        "binge"
+      ],
+      "genre": [
+        "Mystery",
+        "Psychological",
+        "Supernatural",
+        "Thriller"
+      ],
+      "format": "TV",
+      "type": "Anime",
+      "status": "tamat",
+      "timeAgo": "2h",
+      "up": false,
+      "views": "7.8M",
+      "rawViews": 7800000,
+      "latestRelease": "EP.37",
+      "score": 8.9,
+      "year": 2006
+    },
+    {
+      "id": 28,
+      "title": "Vinland Saga Season 2",
+      "url": "https://myanimelist.net/anime/49387",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx136430-mQ9eL8v5xT2z.jpg",
+      "aura": [
+        "melancholy",
+        "chill"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Historical"
+      ],
+      "format": "TV",
+      "type": "Anime",
+      "status": "tamat",
+      "timeAgo": "2h",
+      "up": false,
+      "views": "3.6M",
+      "rawViews": 3600000,
+      "latestRelease": "EP.24",
+      "score": 9.1,
+      "year": 2023
+    },
+    {
+      "id": 29,
+      "title": "Nano Machine",
+      "url": "https://myanimelist.net/manga/149880",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx120012-oQWz78pL8k3n.jpg",
+      "aura": [
+        "high-energy",
+        "binge"
+      ],
+      "genre": [
+        "Action",
+        "Fantasy",
+        "Martial Arts",
+        "Sci-Fi"
+      ],
+      "format": "Manhwa",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "2h",
+      "up": true,
+      "views": "4.8M",
+      "rawViews": 4800000,
+      "latestRelease": "CH.218",
+      "score": 8.8,
+      "year": 2020
+    },
+    {
+      "id": 30,
+      "title": "Demon Slayer: Kimetsu no Yaiba",
+      "url": "https://myanimelist.net/anime/38000",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx101922-WBsBlCoPuQ75.jpg",
+      "aura": [
+        "high-energy",
+        "binge"
+      ],
+      "genre": [
+        "Action",
+        "Fantasy",
+        "Demon",
+        "Historical"
+      ],
+      "format": "TV",
+      "type": "Anime",
+      "status": "tamat",
+      "timeAgo": "3h",
+      "up": false,
+      "views": "9.5M",
+      "rawViews": 9500000,
+      "latestRelease": "EP.26",
+      "score": 8.8,
+      "year": 2019
+    },
+    {
+      "id": 31,
+      "title": "Hunter x Hunter (2011)",
+      "url": "https://myanimelist.net/anime/11061",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx11061-n5gHD4eZzW1P.jpg",
+      "aura": [
+        "mind-bending",
+        "high-energy"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "format": "TV",
+      "type": "Anime",
+      "status": "tamat",
+      "timeAgo": "3h",
+      "up": false,
+      "views": "8.1M",
+      "rawViews": 8100000,
+      "latestRelease": "EP.148",
+      "score": 9.3,
+      "year": 2011
+    },
+    {
+      "id": 32,
+      "title": "Bleach: Thousand-Year Blood War",
+      "url": "https://myanimelist.net/anime/41467",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114446-MwfTzO4yP2oX.jpg",
+      "aura": [
+        "high-energy",
+        "binge"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Supernatural"
+      ],
+      "format": "TV",
+      "type": "Anime",
+      "status": "ongoing",
+      "timeAgo": "3h",
+      "up": true,
+      "views": "4.3M",
+      "rawViews": 4300000,
+      "latestRelease": "EP.26",
+      "score": 9,
+      "year": 2022
+    },
+    {
+      "id": 33,
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "url": "https://myanimelist.net/anime/5114",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5114-1m2eK4zO9pQv.jpg",
+      "aura": [
+        "mind-bending",
+        "high-energy"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Fantasy"
+      ],
+      "format": "TV",
+      "type": "Anime",
+      "status": "tamat",
+      "timeAgo": "4h",
+      "up": false,
+      "views": "9.8M",
+      "rawViews": 9800000,
+      "latestRelease": "EP.64",
+      "score": 9.5,
+      "year": 2009
+    },
+    {
+      "id": 34,
+      "title": "Wind Breaker",
+      "url": "https://myanimelist.net/manga/135338",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx106322-zV9gMvO6zW2Z.jpg",
+      "aura": [
+        "high-energy",
+        "chill"
+      ],
+      "genre": [
+        "Action",
+        "Comedy",
+        "Drama",
+        "Slice of Life"
+      ],
+      "format": "Manhwa",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "4h",
+      "up": true,
+      "views": "3.9M",
+      "rawViews": 3900000,
+      "latestRelease": "CH.490",
+      "score": 8.7,
+      "year": 2013
+    },
+    {
+      "id": 35,
+      "title": "Mob Psycho 100",
+      "url": "https://myanimelist.net/anime/32182",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21507-OguN612999m6.jpg",
+      "aura": [
+        "high-energy",
+        "comedy"
+      ],
+      "genre": [
+        "Action",
+        "Comedy",
+        "Supernatural"
+      ],
+      "format": "TV",
+      "type": "Anime",
+      "status": "tamat",
+      "timeAgo": "5h",
+      "up": false,
+      "views": "5.5M",
+      "rawViews": 5500000,
+      "latestRelease": "EP.12",
+      "score": 8.9,
+      "year": 2016
+    },
+    {
+      "id": 36,
+      "title": "Return of the Mount Hua Sect",
+      "url": "https://myanimelist.net/manga/141097",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx132100-qP9kL2x5zT3e.jpg",
+      "aura": [
+        "high-energy",
+        "binge"
+      ],
+      "genre": [
+        "Action",
+        "Comedy",
+        "Fantasy",
+        "Martial Arts"
+      ],
+      "format": "Manhwa",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "5h",
+      "up": true,
+      "views": "4.7M",
+      "rawViews": 4700000,
+      "latestRelease": "CH.124",
+      "score": 8.9,
+      "year": 2021
+    },
+    {
+      "id": 37,
+      "title": "Cyberpunk: Edgerunners",
+      "url": "https://myanimelist.net/anime/42310",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx120377-p5yZ74h7Y31r.jpg",
+      "aura": [
+        "high-energy",
+        "melancholy"
+      ],
+      "genre": [
+        "Action",
+        "Sci-Fi",
+        "Psychological"
+      ],
+      "format": "TV",
+      "type": "Anime",
+      "status": "tamat",
+      "timeAgo": "6h",
+      "up": false,
+      "views": "4.2M",
+      "rawViews": 4200000,
+      "latestRelease": "EP.10",
+      "score": 8.8,
+      "year": 2022
+    },
+    {
+      "id": 38,
+      "title": "Overlord IV",
+      "url": "https://myanimelist.net/anime/48895",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx133844-32lMh748zQ3x.jpg",
+      "aura": [
+        "mind-bending",
+        "binge"
+      ],
+      "genre": [
+        "Action",
+        "Fantasy",
+        "Isekai"
+      ],
+      "format": "TV",
+      "type": "Anime",
+      "status": "tamat",
+      "timeAgo": "6h",
+      "up": false,
+      "views": "3.7M",
+      "rawViews": 3700000,
+      "latestRelease": "EP.13",
+      "score": 8.6,
+      "year": 2022
+    },
+    {
+      "id": 39,
+      "title": "The Beginning After The End",
+      "url": "https://myanimelist.net/manga/133547",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx106086-Y5mQ7pL8wZ3e.jpg",
+      "aura": [
+        "binge",
+        "high-energy"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Isekai"
+      ],
+      "format": "Manhwa",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "7h",
+      "up": true,
+      "views": "6.1M",
+      "rawViews": 6100000,
+      "latestRelease": "CH.185",
+      "score": 8.8,
+      "year": 2018
+    },
+    {
+      "id": 40,
+      "title": "Tokyo Ghoul",
+      "url": "https://myanimelist.net/manga/33327",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx63327-0N2LpW9xTqB3.jpg",
+      "aura": [
+        "melancholy",
+        "mind-bending"
+      ],
+      "genre": [
+        "Action",
+        "Drama",
+        "Horror",
+        "Mystery",
+        "Psychological"
+      ],
+      "format": "Manga",
+      "type": "Manga",
+      "status": "tamat",
+      "timeAgo": "8h",
+      "up": false,
+      "views": "5.1M",
+      "rawViews": 5100000,
+      "latestRelease": "CH.143",
+      "score": 8.8,
+      "year": 2011
+    },
+    {
+      "id": 41,
+      "title": "Haikyuu!! Final",
+      "url": "https://myanimelist.net/anime/52742",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx153284-884m9yvX9wzL.jpg",
+      "aura": [
+        "high-energy",
+        "chill"
+      ],
+      "genre": [
+        "Comedy",
+        "Drama",
+        "Slice of Life"
+      ],
+      "format": "TV",
+      "type": "Anime",
+      "status": "tamat",
+      "timeAgo": "9h",
+      "up": false,
+      "views": "4.5M",
+      "rawViews": 4500000,
+      "latestRelease": "Movie",
+      "score": 8.9,
+      "year": 2024
+    },
+    {
+      "id": 42,
+      "title": "SSS-Class Revival Hunter",
+      "url": "https://myanimelist.net/manga/134606",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx124080-mQ9eL8v5xT2z.jpg",
+      "aura": [
+        "mind-bending",
+        "binge"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Fantasy"
+      ],
+      "format": "Manhwa",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "10h",
+      "up": true,
+      "views": "2.8M",
+      "rawViews": 2800000,
+      "latestRelease": "CH.102",
+      "score": 8.7,
+      "year": 2020
+    },
+    {
+      "id": 43,
+      "title": "Monster",
+      "url": "https://myanimelist.net/anime/19",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx19-kM91KqL283zX.jpg",
+      "aura": [
+        "mind-bending",
+        "melancholy"
+      ],
+      "genre": [
+        "Drama",
+        "Mystery",
+        "Psychological",
+        "Thriller"
+      ],
+      "format": "TV",
+      "type": "Anime",
+      "status": "tamat",
+      "timeAgo": "11h",
+      "up": false,
+      "views": "4.1M",
+      "rawViews": 4100000,
+      "latestRelease": "EP.74",
+      "score": 9.3,
+      "year": 2004
+    },
+    {
+      "id": 44,
+      "title": "Mushoku Tensei Season 2",
+      "url": "https://myanimelist.net/anime/51179",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx146065-oQWz78pL8k3n.jpg",
+      "aura": [
+        "binge",
+        "chill"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Fantasy",
+        "Isekai"
+      ],
+      "format": "TV",
+      "type": "Anime",
+      "status": "tamat",
+      "timeAgo": "12h",
+      "up": false,
+      "views": "5.8M",
+      "rawViews": 5800000,
+      "latestRelease": "EP.24",
+      "score": 8.8,
+      "year": 2023
+    },
+    {
+      "id": 45,
+      "title": "Tales of Demons and Gods",
+      "url": "https://myanimelist.net/manga/92451",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx86707-1466YjJc507m.jpg",
+      "aura": [
+        "binge",
+        "high-energy"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Martial Arts",
+        "Demon"
+      ],
+      "format": "Manhua",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "13h",
+      "up": true,
+      "views": "7.1M",
+      "rawViews": 7100000,
+      "latestRelease": "CH.458.5",
+      "score": 8.4,
+      "year": 2015
+    },
+    {
+      "id": 46,
+      "title": "Chainsaw Man Part 2",
+      "url": "https://myanimelist.net/manga/145690",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx117195-r3kf8eF0xkDJ.png",
+      "aura": [
+        "high-energy",
+        "mind-bending"
+      ],
+      "genre": [
+        "Action",
+        "Comedy",
+        "Demon",
+        "Demons",
+        "Horror"
+      ],
+      "format": "Manga",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "14h",
+      "up": true,
+      "views": "6.5M",
+      "rawViews": 6500000,
+      "latestRelease": "CH.170",
+      "score": 8.8,
+      "year": 2022
+    },
+    {
+      "id": 47,
+      "title": "Martial Peak",
+      "url": "https://myanimelist.net/manga/117963",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx105948-4r88uZzpvDvd.jpg",
+      "aura": [
+        "binge",
+        "high-energy"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Martial Arts"
+      ],
+      "format": "Manhua",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "15h",
+      "up": true,
+      "views": "18.2M",
+      "rawViews": 18200000,
+      "latestRelease": "CH.3720",
+      "score": 8.5,
+      "year": 2018
+    },
+    {
+      "id": 48,
+      "title": "Tower of God",
+      "url": "https://myanimelist.net/manga/122663",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx85143-m5htTQbb8UB4.jpg",
+      "aura": [
+        "mind-bending",
+        "binge"
+      ],
+      "genre": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Fantasy",
+        "Mystery"
+      ],
+      "format": "Manhwa",
+      "type": "Manga",
+      "status": "ongoing",
+      "timeAgo": "16h",
+      "up": true,
+      "views": "8.4M",
+      "rawViews": 8400000,
+      "latestRelease": "CH.618",
+      "score": 8.9,
+      "year": 2010
+    }
+  ]
+}

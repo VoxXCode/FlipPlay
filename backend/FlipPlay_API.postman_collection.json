@@ -1,0 +1,156 @@
+{
+  "info": {
+    "name": "FlipPlay REST API (Modul 4)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "1. Media (CRUD)",
+      "item": [
+        {
+          "name": "GET All Media",
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Accept", "value": "application/json" }],
+            "url": { "raw": "http://127.0.0.1:8000/api/media", "protocol": "http", "host": ["127", "0", "0", "1"], "port": "8000", "path": ["api", "media"] }
+          }
+        },
+        {
+          "name": "GET Filter Media by Title (Search)",
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Accept", "value": "application/json" }],
+            "url": {
+              "raw": "http://127.0.0.1:8000/api/media?title=Frieren",
+              "protocol": "http",
+              "host": ["127", "0", "0", "1"],
+              "port": "8000",
+              "path": ["api", "media"],
+              "query": [{ "key": "title", "value": "Frieren" }]
+            }
+          }
+        },
+        {
+          "name": "GET Single Media Detail",
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Accept", "value": "application/json" }],
+            "url": { "raw": "http://127.0.0.1:8000/api/media/1", "protocol": "http", "host": ["127", "0", "0", "1"], "port": "8000", "path": ["api", "media", "1"] }
+          }
+        },
+        {
+          "name": "POST Create Media (Happy Path)",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept", "value": "application/json" },
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Dandadan Season 2\",\n  \"type\": \"TV Series\",\n  \"score\": 8.90,\n  \"year\": 2025,\n  \"synopsis\": \"Kelanjutan petualangan Momo dan Okarun menghadapi fenomena gaib dan alien.\",\n  \"image\": \"https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx171018-0uJ97Z4k1kPn.jpg\",\n  \"genre\": \"Action, Supernatural, Comedy\"\n}"
+            },
+            "url": { "raw": "http://127.0.0.1:8000/api/media", "protocol": "http", "host": ["127", "0", "0", "1"], "port": "8000", "path": ["api", "media"] }
+          }
+        },
+        {
+          "name": "POST Create Media (Failure Path - 422 Validation)",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept", "value": "application/json" },
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"\",\n  \"score\": 15\n}"
+            },
+            "url": { "raw": "http://127.0.0.1:8000/api/media", "protocol": "http", "host": ["127", "0", "0", "1"], "port": "8000", "path": ["api", "media"] }
+          }
+        },
+        {
+          "name": "PATCH Update Media",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              { "key": "Accept", "value": "application/json" },
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"score\": 9.99\n}"
+            },
+            "url": { "raw": "http://127.0.0.1:8000/api/media/1", "protocol": "http", "host": ["127", "0", "0", "1"], "port": "8000", "path": ["api", "media", "1"] }
+          }
+        },
+        {
+          "name": "DELETE Media",
+          "request": {
+            "method": "DELETE",
+            "header": [{ "key": "Accept", "value": "application/json" }],
+            "url": { "raw": "http://127.0.0.1:8000/api/media/4", "protocol": "http", "host": ["127", "0", "0", "1"], "port": "8000", "path": ["api", "media", "4"] }
+          }
+        }
+      ]
+    },
+    {
+      "name": "2. Users & Collection (Custom Action)",
+      "item": [
+        {
+          "name": "GET All Users",
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Accept", "value": "application/json" }],
+            "url": { "raw": "http://127.0.0.1:8000/api/users", "protocol": "http", "host": ["127", "0", "0", "1"], "port": "8000", "path": ["api", "users"] }
+          }
+        },
+        {
+          "name": "GET User Collection",
+          "request": {
+            "method": "GET",
+            "header": [{ "key": "Accept", "value": "application/json" }],
+            "url": { "raw": "http://127.0.0.1:8000/api/users/1/collection", "protocol": "http", "host": ["127", "0", "0", "1"], "port": "8000", "path": ["api", "users", "1", "collection"] }
+          }
+        },
+        {
+          "name": "POST Add Media to Collection (Happy Path)",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept", "value": "application/json" },
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"media_id\": 2\n}"
+            },
+            "url": { "raw": "http://127.0.0.1:8000/api/users/1/collection", "protocol": "http", "host": ["127", "0", "0", "1"], "port": "8000", "path": ["api", "users", "1", "collection"] }
+          }
+        },
+        {
+          "name": "POST Add Media to Collection (Failure Path - 409 Duplicate)",
+          "request": {
+            "method": "POST",
+            "header": [
+              { "key": "Accept", "value": "application/json" },
+              { "key": "Content-Type", "value": "application/json" }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"media_id\": 1\n}"
+            },
+            "url": { "raw": "http://127.0.0.1:8000/api/users/1/collection", "protocol": "http", "host": ["127", "0", "0", "1"], "port": "8000", "path": ["api", "users", "1", "collection"] }
+          }
+        },
+        {
+          "name": "DELETE Remove Media from Collection",
+          "request": {
+            "method": "DELETE",
+            "header": [{ "key": "Accept", "value": "application/json" }],
+            "url": { "raw": "http://127.0.0.1:8000/api/users/1/collection/1", "protocol": "http", "host": ["127", "0", "0", "1"], "port": "8000", "path": ["api", "users", "1", "collection", "1"] }
+          }
+        }
+      ]
+    }
+  ]
+}
